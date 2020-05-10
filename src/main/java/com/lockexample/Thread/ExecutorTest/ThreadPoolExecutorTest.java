@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ *
+ */
 public class ThreadPoolExecutorTest {
 
     public static void main(String[] args) throws IOException {
@@ -50,7 +53,7 @@ public class ThreadPoolExecutorTest {
         private void doLog(Runnable r, ThreadPoolExecutor e) {
             // 可做日志记录等
             System.err.println(r.toString() + " rejected");
-//          System.out.println("completedTaskCount: " + e.getCompletedTaskCount());
+            System.out.println("completedTaskCount: " + e.getCompletedTaskCount());
         }
     }
 
