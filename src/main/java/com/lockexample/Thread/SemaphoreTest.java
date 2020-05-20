@@ -4,7 +4,7 @@ import java.util.concurrent.Semaphore;
 
 /**
  * 信号量.
- *
+ * 用完以后下一个人才能用
  */
 public class SemaphoreTest {
 
