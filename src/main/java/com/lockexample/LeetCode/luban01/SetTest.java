@@ -5,6 +5,7 @@ import java.util.Set;
 
 public class SetTest {
 	public static void main(String[] args) {
+
 		//Set用来去重
 		//Set 在Java里面有几种实现方式？
 		//3种
@@ -15,7 +16,6 @@ public class SetTest {
 		//HashMap<>
 		
 		Set<Integer> integers = new HashSet<>();
-		
 		
 	}
 }

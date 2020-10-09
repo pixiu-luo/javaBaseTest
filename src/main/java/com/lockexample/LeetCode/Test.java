@@ -1,4 +1,4 @@
-package com.lockexample;
+package com.lockexample.LeetCode;
 
 import java.util.stream.IntStream;
 

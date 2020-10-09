@@ -5,7 +5,6 @@ import java.util.concurrent.PriorityBlockingQueue;
 
 public class QueueTest {
 
-
     public static void main(String[] args) {
         //等待队列
         //排队场景 如果一个系统流量高 要做这种排队系统
