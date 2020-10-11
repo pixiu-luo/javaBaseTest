@@ -1,6 +1,7 @@
 package com.org.example.java.base;
 
-import org.example.comparebojo.People;
+
+import com.org.example.comparebojo.People;
 
 /**
  * @name:

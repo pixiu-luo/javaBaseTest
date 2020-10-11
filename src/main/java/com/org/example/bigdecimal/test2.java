@@ -1,6 +1,7 @@
 package com.org.example.bigdecimal;
 
-import org.example.comparebojo.People;
+
+import com.org.example.comparebojo.People;
 
 import java.util.Objects;
 

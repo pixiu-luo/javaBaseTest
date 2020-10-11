@@ -1,9 +1,9 @@
 package com.org.example.bigdecimal;
 
 import com.google.common.collect.Lists;
+import com.org.example.comparebojo.People;
+import com.org.example.comparebojo.PeopleT;
 import org.apache.commons.lang3.math.NumberUtils;
-import org.example.comparebojo.People;
-import org.example.comparebojo.PeopleT;
 import org.springframework.beans.BeanUtils;
 
 /**
