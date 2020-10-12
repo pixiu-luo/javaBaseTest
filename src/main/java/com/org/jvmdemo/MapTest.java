@@ -15,6 +15,7 @@ import java.util.Map;
  * @version: 1.0.0 <br>
  */
 public class MapTest {
+
     public static void main(String[] args) {
         Map<String, BigDecimal> receiveAmountMap = Maps.newHashMap();
         receiveAmountMap.put("aa", BigDecimal.valueOf(10));

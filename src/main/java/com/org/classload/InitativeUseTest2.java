@@ -26,7 +26,8 @@ class Son2 extends Father2{
     }
 }
 
-public class InitativeUseTest2 {
+public class
+InitativeUseTest2 {
     public static void main(String[] args) {
 
         System.out.println(Son2.strSon);
