@@ -1,4 +1,4 @@
-package com.org.stream;
+package com.org.didiShare.stream;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ import java.util.List;
  * @author: liujing <br>
  * @version: 1.0.0 <br>
  */
-public class test3 {
+public class ParallelStream {
 
     public static void main(String[] args) {
         List result = new ArrayList<>();

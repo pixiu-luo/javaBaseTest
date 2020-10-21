@@ -2,6 +2,9 @@ package com.lockexample.LeetCode.luban02;
 
 import java.util.Scanner;
 
+/**
+ * 冒泡排序
+ */
 public class BubbleSort {
 
 	// 4 2 5 1

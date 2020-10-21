@@ -2,6 +2,9 @@ package com.lockexample.LeetCode.luban02;
 
 import java.util.Scanner;
 
+/**
+ * 插入排序
+ */
 public class InsertSort {
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.org.stream;
+package com.org.didiShare.stream;
 
 import java.util.Arrays;
 import java.util.List;

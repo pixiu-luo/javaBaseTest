@@ -1,4 +1,4 @@
-package com.org.stream;
+package com.org.didiShare.stream;
 
 import java.util.stream.Stream;
 
@@ -19,18 +19,18 @@ public class A_CreaterStream {
     }
 
     //通过数组构造
-    public static void ArryStream(){
+    public static void ArrayStream() {
         String[] str = {"Hello World", "Jiaming Chen", "Zhouhang Cheng"};
         Stream<String> stream = Stream.of(str);
-        stream.forEach(item->{
+        stream.forEach(item -> {
             System.out.println(item);
         });
     }
 
     //通过单个元素构造
-    public static void NewStream(){
+    public static void NewStream() {
         Stream<Integer> stream = Stream.of(1, 2, 3, 4);
-        stream.forEach(item->{
+        stream.forEach(item -> {
             System.out.println(item);
         });
     }

@@ -17,9 +17,10 @@ class Me implements Comparable<Me> {
 	}
 
 	@Override
-	public int compareTo(Me o) {		//以结束时间排序 早结束的放前面
-		if (this.endTime > o.endTime)
+	public int compareTo(Me o) {        //以结束时间排序 早结束的放前面
+		if (this.endTime > o.endTime) {
 			return 1;
+		}
 		return -1;
 	}
 
