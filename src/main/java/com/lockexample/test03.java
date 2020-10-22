@@ -1,10 +1,7 @@
 package com.lockexample;
 
-import org.springframework.boot.autoconfigure.web.ServerProperties;
-import sun.reflect.generics.tree.Tree;
 
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 
 public class test03 {
