@@ -18,6 +18,7 @@ public class People {
     private int bb;
     public int cc;
     public int ee;
+    public String dd;
 
     /*public BigDecimal getAa() {
         return new BigDecimal(aa);

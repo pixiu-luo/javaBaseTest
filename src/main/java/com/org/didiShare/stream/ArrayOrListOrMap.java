@@ -42,6 +42,11 @@ public class ArrayOrListOrMap {
         toMapTwo(initList());
     }
 
+    public static void testMap(List<Apple> appleList){
+        Map<String, List<Apple>> collect = appleList.stream().collect(Collectors.groupingBy(Apple::getName));
+
+    }
+
     //分组
     public static void toMapOne(List<Apple> appleList) {
         //List 以ID分组 Map<Integer,List<Apple>>

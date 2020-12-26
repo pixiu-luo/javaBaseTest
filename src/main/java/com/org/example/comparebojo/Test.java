@@ -1,5 +1,7 @@
 package com.org.example.comparebojo;
 
+import com.sun.org.apache.xerces.internal.impl.xpath.XPath;
+
 /**
  * @name: aa
  * @Copyright: CopyRight(c) 2020
@@ -10,7 +12,16 @@ package com.org.example.comparebojo;
  * @version: 1.0.0 <br>
  */
 public class Test {
-    People people = new People();
+    public static void main(String[] args) {
+        People people = new People();
+
+        people.setAa("aaY");
+
+        StringBuffer str = new StringBuffer();
+        System.out.println(str.append(people.getAa()).append(people.getDd()).append(","));
+
+
+    }
 
 
 }

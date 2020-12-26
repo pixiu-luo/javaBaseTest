@@ -79,4 +79,21 @@ public class Quote {
 
     }
 
+    public static void test4(){
+        BiFunction<String, Integer, Emp> bFun = (name, age) -> new Emp(name, age);
+        BiFunction<String, Integer, Emp> bFun1 = Emp::new;
+        Emp beautiful_girl = bFun1.apply("beautiful girl", 18);
+
+    }
+
+    public static void test5(){
+        BiFunction<String, Integer, Emp> bFun1 = new BiFunction<String, Integer, Emp>() {
+            @Override
+            public Emp apply(String s, Integer integer) {
+                return null;
+            }
+        };
+        Emp beautiful_girl = bFun1.apply("beautiful girl", 18);
+
+    }
 }

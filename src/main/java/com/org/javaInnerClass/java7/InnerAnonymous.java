@@ -1,19 +1,14 @@
-package com.org.didiShare.stream;
+package com.org.javaInnerClass.java7;
 
 /**
  * @name:
  * @Copyright: CopyRight(c) 2020
  * @description: <br>
  * @precautionsғ
- * @date: 2020/10/12 14:38 <br>
+ * @date: 2020/10/23 8:32 <br>
  * @author: liujing <br>
  * @version: 1.0.0 <br>
  */
-public class test6 {
-    public static void main(String[] args) {
-
-
-
-
-    }
+public interface InnerAnonymous {
+    void functionA();
 }
