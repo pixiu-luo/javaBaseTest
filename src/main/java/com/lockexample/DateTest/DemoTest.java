@@ -19,13 +19,27 @@ import java.util.stream.Collectors;
 public class DemoTest {
     public static void main(String[] args) {
         ArrayList<String> strings =
-                Lists.newArrayList("XY2020120900001-1",
+                Lists.newArrayList(
+                        "XY2020120900001-1",
                         "XY2020120900001-2",
-                        "XY2020120900001-101",
-                        "XY2020120900001-5");
+                        "XY2020120900001-10",
+                        "XY2020120900001-5",
+                        "XY2020120900001-101");
         //strings.stream().filter()
+
+        List<String> collect1 = strings.stream()
+                .sorted(Comparator.comparing(model -> {
+                    int sub = model.lastIndexOf("-") + 1;
+                    String substring = model.substring(sub);
+                    return Integer.valueOf(substring);
+                }, Comparator.reverseOrder())).collect(Collectors.toList());
+
+        System.out.println(collect1);
+
+        /*System.out.println(strings.size());
+        System.out.println(strings.get(strings.size() - 2));
         List<String> collect = strings.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
-        System.out.println(collect);
+        System.out.println(collect);*/
 
     }
 }

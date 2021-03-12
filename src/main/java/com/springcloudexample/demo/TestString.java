@@ -17,5 +17,8 @@ public class TestString {
         String apiPath = "/api/,/logout,/common,/project,/lib,/framwork";
         System.out.println((Arrays.asList(filePath)));
         System.out.println((Arrays.asList(apiPath)));
+
+        System.out.println(Arrays.asList("AA" + "-" + "BB" + "-" + "CC"));
+
     }
 }
